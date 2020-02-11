@@ -1,0 +1,90 @@
+body {
+    color: blue;
+    background-color:purple;
+    font: normal 30px Arial, Helvetica, sans-serif;
+    line-height: 1.9em;
+    margin:0;
+}
+
+h1{
+    color: gold;
+}
+.container{
+    width: 80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+#main-header{
+    background-color: coral;
+    color:#fff
+}
+
+#navbar{
+    background-color:#333;
+    color:#fff;
+}
+
+#navbar ul{
+    padding:0;
+    list-style: none;
+}
+
+#navbar a{
+    color:ffff;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right:15px;
+}
+
+.box-1{
+    background-color: rosybrown;
+    color:#fff;
+    border: 5px purple solid;
+    border-width: 3px;
+    border-bottom-width:10px,
+}
+
+.box-1 h1{
+    font-family: Tahoma;
+    font-weight:800;
+    font-style:italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 1em;
+}
+
+a{
+    text-decoration: none;
+    color: green
+}
+
+#showcase{
+    background-image:url('images/dompic.jpg');
+    background-position:center right;
+    height:300px; 
+    margin-bottom: 30px
+}
+
+
+
+
+
+
+#sidebar{
+    float:right;
+    width:30%;
+    background: purple;
+    color:red;
+    padding:10px;
+    box-sizing: border-box
+}
+
+#main-footer{
+    background:#333;
+    color:#fff;
+    text-align: center;
+    padding:20px;
+    margin-top: 40px;
+}
